@@ -1,0 +1,221 @@
+{
+  "fixture": true,
+  "events": [
+    {
+      "id": "fixture-library",
+      "split": "fixture_development",
+      "background": "【虚构】图书馆预约规则讨论。全部内容仅用于离线框架测试。",
+      "question": "图书馆应采用统一预约规则，还是允许分馆按需求调整？",
+      "profiles": [
+        {
+          "role": "普通公众",
+          "interests": [
+            "公平",
+            "规则"
+          ]
+        },
+        {
+          "role": "一线从业者",
+          "interests": [
+            "需求",
+            "效果"
+          ]
+        },
+        {
+          "role": "经营者",
+          "interests": [
+            "调整",
+            "服务"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "id": "source:fixture-library:0",
+          "event": "fixture-library",
+          "tick": 0,
+          "channel": "platform",
+          "author": null,
+          "parent": null,
+          "text": "【虚构】图书馆预约规则讨论。现有材料没有给出实际效果数据。"
+        },
+        {
+          "id": "source:fixture-library:1",
+          "event": "fixture-library",
+          "tick": 2,
+          "channel": "platform",
+          "author": null,
+          "parent": null,
+          "text": "【虚构补充】需保障信息披露和基本公平；具体规则仍待讨论。"
+        },
+        {
+          "id": "source:fixture-library:2",
+          "event": "fixture-library",
+          "tick": 4,
+          "channel": "platform",
+          "author": null,
+          "parent": null,
+          "text": "【虚构背景】公告说明周末开放服务，参与者可以反馈意见。"
+        }
+      ],
+      "replay": {
+        "0": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-library:0"
+          ],
+          "history": []
+        },
+        "1": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-library:0"
+          ],
+          "history": []
+        },
+        "2": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-library:0",
+            "source:fixture-library:1"
+          ],
+          "history": []
+        },
+        "3": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-library:0",
+            "source:fixture-library:1"
+          ],
+          "history": []
+        },
+        "4": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-library:0",
+            "source:fixture-library:1",
+            "source:fixture-library:2"
+          ],
+          "history": []
+        },
+        "5": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-library:0",
+            "source:fixture-library:1",
+            "source:fixture-library:2"
+          ],
+          "history": []
+        }
+      }
+    },
+    {
+      "id": "fixture-school",
+      "split": "fixture_development",
+      "background": "【虚构】学校活动规则讨论。全部内容仅用于离线框架测试。",
+      "question": "学校活动应采用统一安排，还是允许各班按需求调整？",
+      "profiles": [
+        {
+          "role": "普通公众",
+          "interests": [
+            "公平",
+            "规则"
+          ]
+        },
+        {
+          "role": "一线从业者",
+          "interests": [
+            "需求",
+            "效果"
+          ]
+        },
+        {
+          "role": "经营者",
+          "interests": [
+            "调整",
+            "服务"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "id": "source:fixture-school:0",
+          "event": "fixture-school",
+          "tick": 0,
+          "channel": "platform",
+          "author": null,
+          "parent": null,
+          "text": "【虚构】学校活动规则讨论。现有材料没有给出实际效果数据。"
+        },
+        {
+          "id": "source:fixture-school:1",
+          "event": "fixture-school",
+          "tick": 2,
+          "channel": "platform",
+          "author": null,
+          "parent": null,
+          "text": "【虚构补充】需保障信息披露和基本公平；具体规则仍待讨论。"
+        },
+        {
+          "id": "source:fixture-school:2",
+          "event": "fixture-school",
+          "tick": 4,
+          "channel": "platform",
+          "author": null,
+          "parent": null,
+          "text": "【虚构背景】公告说明周末开放服务，参与者可以反馈意见。"
+        }
+      ],
+      "replay": {
+        "0": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-school:0"
+          ],
+          "history": []
+        },
+        "1": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-school:0"
+          ],
+          "history": []
+        },
+        "2": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-school:0",
+            "source:fixture-school:1"
+          ],
+          "history": []
+        },
+        "3": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-school:0",
+            "source:fixture-school:1"
+          ],
+          "history": []
+        },
+        "4": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-school:0",
+            "source:fixture-school:1",
+            "source:fixture-school:2"
+          ],
+          "history": []
+        },
+        "5": {
+          "channel": "platform",
+          "cards": [
+            "source:fixture-school:0",
+            "source:fixture-school:1",
+            "source:fixture-school:2"
+          ],
+          "history": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "base.json",
+  "experiment": {"id": "fixture-chat-connectivity-v1", "modes": ["fixed_replay"], "seeds": [101]},
+  "data": {"events": ["fixture-library"]},
+  "agent": {
+    "variants": [{"id": "candidate", "backend": "chat", "model": "REPLACE_WITH_SERVED_MODEL"}],
+    "model_revision": "REPLACE_WITH_FROZEN_REVISION"
+  },
+  "runtime": {"output_root": "../outputs/fixture-chat-connectivity-v1"}
+}

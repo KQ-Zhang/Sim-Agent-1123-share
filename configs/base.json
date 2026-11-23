@@ -1,0 +1,48 @@
+{
+  "experiment": {
+    "id": "framework-smoke-v1",
+    "protocol": "../experiments/framework-smoke-v1.md",
+    "modes": ["fixed_replay", "closed_loop"],
+    "seeds": [101, 102, 103]
+  },
+  "data": {
+    "manifest": "../data/fixtures/scenarios.json",
+    "events": ["fixture-library", "fixture-school"],
+    "split": "fixture_development"
+  },
+  "environment": {
+    "nodes": 12,
+    "degree": 6,
+    "rewiring": 0.12,
+    "rounds": 6,
+    "start_hour": 10,
+    "step_minutes": 30,
+    "online_rate": 0.8,
+    "diurnal": true,
+    "community_rate": 0.35,
+    "capacity": 4,
+    "message_lifetime": 12,
+    "memory_rounds": 3,
+    "interest_weight": 0.65,
+    "heat_weight": 1.0
+  },
+  "agent": {
+    "variants": [
+      {"id": "cautious", "backend": "fixture", "model": "fixture-cautious"},
+      {"id": "social", "backend": "fixture", "model": "fixture-social"}
+    ],
+    "prompt": "../prompts/participant-v1.txt",
+    "temperature": 0.65,
+    "max_tokens": 512,
+    "endpoint_env": "LCD_API_BASE",
+    "api_key_env": "LCD_API_KEY",
+    "model_revision": "fixture-v1"
+  },
+  "measurement": {"axis": "discretion", "scope": "current_utterance"},
+  "runtime": {
+    "output_root": "../outputs/framework-smoke-v1",
+    "timeout_seconds": 60,
+    "max_attempts": 3,
+    "max_requests": 216
+  }
+}

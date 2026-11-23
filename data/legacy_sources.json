@@ -1,0 +1,52 @@
+[
+  {
+    "source": "../experiments/E01/code/exp01_small_world_pilot.py",
+    "sha256": "1b810e97da9cbce463dcc4f8fecb23dd9004776285d86293c0f912024a5128cd",
+    "symbol": "fixed_graph",
+    "source_lines": [
+      34,
+      65
+    ],
+    "adaptation": "parameterized degree and rewiring"
+  },
+  {
+    "source": "../experiments/E02/code/exp02_small_world_paired.py",
+    "sha256": "e05e196a70be051e47574c9747e35c9d5f6752b1c23d1d11578ae06b6a3d75df",
+    "symbol": "daily_visit_weight",
+    "source_lines": [
+      48,
+      55
+    ],
+    "adaptation": "unchanged extraction"
+  },
+  {
+    "source": "../experiments/E18/code/exp18_post_heat.py",
+    "sha256": "510a4f694aad03d50517f6080ac5aa9b46660950b5b177bceca0b3699e9ab61e",
+    "symbol": "PostHeat",
+    "source_lines": [
+      23,
+      34
+    ],
+    "adaptation": "unchanged extraction"
+  },
+  {
+    "source": "../experiments/E18/code/exp18_post_heat.py",
+    "sha256": "510a4f694aad03d50517f6080ac5aa9b46660950b5b177bceca0b3699e9ab61e",
+    "symbol": "PostHeatLedger",
+    "source_lines": [
+      40,
+      56
+    ],
+    "adaptation": "unchanged extraction"
+  },
+  {
+    "source": "../experiments/E26/code/exp25_full_value_maps.py",
+    "sha256": "0ddedac56a20fc83fb40b38db29494f03e017cd56704339fd327266b5b2dd784",
+    "symbol": "exclusive_lock",
+    "source_lines": [
+      31,
+      53
+    ],
+    "adaptation": "unchanged extraction"
+  }
+]
